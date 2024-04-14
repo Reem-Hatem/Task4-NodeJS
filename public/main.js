@@ -9,6 +9,7 @@ const messageInput = document.getElementById('message-input')
 
 const messageTone = new Audio('/message-tone.mp3')
 
+
 messageForm.addEventListener('submit', (e) => {
   e.preventDefault()
   sendMessage()
